@@ -1,3 +1,5 @@
+import { Fragment } from "react/jsx-runtime";
+
 export const Home = () => {
-  return <></>;
+  return <Fragment></Fragment>;
 };
