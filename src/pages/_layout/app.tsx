@@ -3,12 +3,12 @@ import { Header } from "../../components/ui/header";
 
 export const AppLayout = () => {
   return (
-    <main className="flex min-h-screen flex-col py-5 container mx-auto">
+    <div className="flex min-h-screen flex-col py-5 container mx-auto">
       <Header />
 
       <div className="flex flex-1 flex-col gap-12 mt-10">
         <Outlet />
       </div>
-    </main>
+    </div>
   );
 };
