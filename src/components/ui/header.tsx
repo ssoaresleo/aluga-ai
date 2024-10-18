@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback } from "./avatar";
 export const Header = () => {
   return (
     <header>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between container mx-auto">
         <img src={logo} alt="Aluga.ai" />
 
         <div className="flex items-center gap-3">
@@ -13,7 +13,7 @@ export const Header = () => {
             <span className="text-zinc-400 text-xs">john@aluga.ai</span>
           </div>
           <Avatar>
-            <AvatarFallback>L</AvatarFallback>
+            <AvatarFallback>J</AvatarFallback>
           </Avatar>
         </div>
       </div>
